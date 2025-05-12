@@ -4414,6 +4414,157 @@
 				)
 			)
 		)
+		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 22.86 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
+				(at 22.86 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
+				(at 22.86 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
+				(at 22.86 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Würth Elektronik"
+				(at 22.86 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "9774050151R"
+				(at 22.86 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 22.86 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 22.86 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SPACER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Spacer_Drill3.7mm_H5mm_9774050151R_1_1"
+				(rectangle
+					(start 2.54 -2.54)
+					(end 7.62 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -1.27)
+					(end 6.35 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "antmicroMemory:24AA024T-I/SN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10131,6 +10282,12 @@
 		(uuid "33d2c37b-44b7-4e88-8d72-cad41ea750d4")
 	)
 	(junction
+		(at 259.08 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ceaa70b-0eab-4ac4-a932-d213c478d889")
+	)
+	(junction
 		(at 292.1 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10215,7 +10372,7 @@
 		(uuid "8597c8f6-7314-45a5-834d-6b7c3dbc8b2d")
 	)
 	(junction
-		(at 229.87 224.79)
+		(at 227.33 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dc486e0-27df-4c73-8c9a-6eb8e1d56930")
@@ -10365,10 +10522,22 @@
 		(uuid "e57c456c-dd99-4c74-a52a-aa2bfb09f8b2")
 	)
 	(junction
+		(at 259.08 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb686f1f-1f1b-42ea-b70e-321047e9a19e")
+	)
+	(junction
 		(at 33.02 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb9120a-6513-4d5d-bf00-5599fa6715c1")
+	)
+	(junction
+		(at 259.08 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed7079ff-9bde-44cd-bd8a-d43401c796b0")
 	)
 	(junction
 		(at 38.1 227.33)
@@ -10622,7 +10791,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 242.57) (xy 227.33 242.57)
+			(xy 220.98 250.19) (xy 224.79 250.19)
 		)
 		(stroke
 			(width 0)
@@ -10772,7 +10941,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 242.57) (xy 247.65 242.57)
+			(xy 240.03 250.19) (xy 245.11 250.19)
 		)
 		(stroke
 			(width 0)
@@ -11092,16 +11261,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 255.27) (xy 240.03 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "268862b7-506b-42eb-9d27-89e71d27a195")
-	)
-	(wire
-		(pts
 			(xy 208.28 68.58) (xy 220.98 68.58)
 		)
 		(stroke
@@ -11382,7 +11541,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 226.06) (xy 245.11 224.79)
+			(xy 242.57 233.68) (xy 242.57 232.41)
 		)
 		(stroke
 			(width 0)
@@ -11409,16 +11568,6 @@
 			(type default)
 		)
 		(uuid "3d5aa574-1c21-4948-bf4f-b04afff24482")
-	)
-	(wire
-		(pts
-			(xy 176.53 165.1) (xy 176.53 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e54d177-de11-4d29-8013-38ab2196d44e")
 	)
 	(wire
 		(pts
@@ -11532,7 +11681,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 226.06) (xy 229.87 224.79)
+			(xy 227.33 233.68) (xy 227.33 232.41)
 		)
 		(stroke
 			(width 0)
@@ -11632,7 +11781,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 242.57) (xy 237.49 242.57)
+			(xy 229.87 250.19) (xy 234.95 250.19)
 		)
 		(stroke
 			(width 0)
@@ -11649,16 +11798,6 @@
 			(type default)
 		)
 		(uuid "503ee7b2-d9c9-4f4b-bda3-c8c0889daaab")
-	)
-	(wire
-		(pts
-			(xy 187.96 165.1) (xy 176.53 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51808215-c13a-436c-bb53-8a176beb3d28")
 	)
 	(wire
 		(pts
@@ -11782,7 +11921,7 @@
 	)
 	(polyline
 		(pts
-			(xy 256.54 180.34) (xy 256.54 284.48)
+			(xy 255.27 180.34) (xy 255.27 284.48)
 		)
 		(stroke
 			(width 0)
@@ -11942,6 +12081,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 271.78) (xy 261.62 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650ff1f7-b596-445c-9161-eab63f924f82")
+	)
+	(wire
+		(pts
 			(xy 72.39 86.36) (xy 72.39 88.9)
 		)
 		(stroke
@@ -12042,16 +12191,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 254) (xy 227.33 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b5bf6cb-7d19-441c-9ba1-c8c5fb04942c")
-	)
-	(wire
-		(pts
 			(xy 287.02 152.4) (xy 288.29 152.4)
 		)
 		(stroke
@@ -12072,7 +12211,7 @@
 	)
 	(polyline
 		(pts
-			(xy 256.54 180.34) (xy 256.54 12.7)
+			(xy 255.27 180.34) (xy 255.27 12.7)
 		)
 		(stroke
 			(width 0)
@@ -12199,6 +12338,16 @@
 			(type default)
 		)
 		(uuid "78517c44-7ef4-4827-9c19-c043943d755d")
+	)
+	(wire
+		(pts
+			(xy 259.08 278.13) (xy 259.08 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78cf5e03-5c6f-4c10-89cb-2d7f1a6937be")
 	)
 	(wire
 		(pts
@@ -12462,6 +12611,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 245.11) (xy 259.08 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893ea5ca-76ae-43a4-9217-a7380ab9832b")
+	)
+	(wire
+		(pts
 			(xy 38.1 226.06) (xy 38.1 227.33)
 		)
 		(stroke
@@ -12542,7 +12701,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 224.79) (xy 229.87 224.79)
+			(xy 226.06 232.41) (xy 227.33 232.41)
 		)
 		(stroke
 			(width 0)
@@ -12642,6 +12801,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 254) (xy 259.08 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b0bb58-0d3f-48d4-9325-ff8a22ee5108")
+	)
+	(wire
+		(pts
 			(xy 177.8 86.36) (xy 175.26 86.36)
 		)
 		(stroke
@@ -12702,7 +12871,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 198.12) (xy 256.54 198.12)
+			(xy 116.84 198.12) (xy 255.27 198.12)
 		)
 		(stroke
 			(width 0)
@@ -13012,7 +13181,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 224.79) (xy 234.95 224.79)
+			(xy 227.33 232.41) (xy 232.41 232.41)
 		)
 		(stroke
 			(width 0)
@@ -13042,7 +13211,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 119.38) (xy 256.54 119.38)
+			(xy 116.84 119.38) (xy 255.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -13082,7 +13251,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 224.79) (xy 240.03 224.79)
+			(xy 242.57 232.41) (xy 237.49 232.41)
 		)
 		(stroke
 			(width 0)
@@ -13092,13 +13261,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 171.45) (xy 176.53 172.72)
+			(xy 259.08 262.89) (xy 259.08 271.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6fed5dd-7599-4455-9f02-be295f7ee960")
+		(uuid "b6828a91-90d5-4e2f-8804-e5c3611c47d6")
 	)
 	(wire
 		(pts
@@ -13159,6 +13328,16 @@
 			(type default)
 		)
 		(uuid "bd9514fe-99a4-4f2c-b351-0019b0ac8e2f")
+	)
+	(wire
+		(pts
+			(xy 261.62 254) (xy 259.08 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be33baf2-fe5c-4eeb-b166-8c67670929b9")
 	)
 	(wire
 		(pts
@@ -13259,6 +13438,16 @@
 			(type default)
 		)
 		(uuid "c1e74b09-da78-4fe2-af4d-296d64d2b53a")
+	)
+	(wire
+		(pts
+			(xy 259.08 245.11) (xy 259.08 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e6548e-7eca-4b10-9992-2956375e7e35")
 	)
 	(polyline
 		(pts
@@ -13372,7 +13561,7 @@
 	)
 	(polyline
 		(pts
-			(xy 256.54 180.34) (xy 407.67 180.34)
+			(xy 255.27 180.34) (xy 407.67 180.34)
 		)
 		(stroke
 			(width 0)
@@ -13569,6 +13758,16 @@
 			(type default)
 		)
 		(uuid "da5cdd6a-6241-48e9-9f1c-6f5cb83c54b4")
+	)
+	(wire
+		(pts
+			(xy 261.62 262.89) (xy 259.08 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac43087-fa8b-478e-8281-1297526df74a")
 	)
 	(wire
 		(pts
@@ -16318,6 +16517,16 @@
 		)
 		(uuid "2ccd39ba-7821-4980-95eb-469a1448c524")
 	)
+	(label "SINK_5V"
+		(at 139.7 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30580b12-5fb3-4457-a8e8-9ab270bb24a3")
+	)
 	(label "EEPROM_5V"
 		(at 187.96 137.16 180)
 		(effects
@@ -16538,16 +16747,6 @@
 		)
 		(uuid "60ca84bc-bb34-4779-83a8-713fd3a29ecc")
 	)
-	(label "EEPROM_5V"
-		(at 187.96 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "672ce4ee-910f-4833-8534-9af01fac5349")
-	)
 	(label "HDMI_D0_N"
 		(at 101.6 53.34 0)
 		(effects
@@ -16637,6 +16836,16 @@
 			(justify right bottom)
 		)
 		(uuid "8336dd1f-8e66-4a43-ba41-2920181bc34c")
+	)
+	(label "SOURCE_5V"
+		(at 63.5 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88ab1058-50e5-4909-a663-f1f82c4666e3")
 	)
 	(label "SOURCE_SCL"
 		(at 87.63 66.04 180)
@@ -17282,7 +17491,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+5V")
-		(at 223.52 242.57 0)
+		(at 220.98 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17290,7 +17499,7 @@
 		(dnp no)
 		(uuid "037b7bfc-b748-436c-8dee-12f97e9c413f")
 		(property "Reference" "#PWR016"
-			(at 238.76 245.11 0)
+			(at 236.22 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17301,7 +17510,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 220.98 240.03 0)
+			(at 218.44 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17310,7 +17519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 250.19 0)
+			(at 236.22 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17321,7 +17530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 252.73 0)
+			(at 236.22 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17332,7 +17541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 242.57 0)
+			(at 220.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17341,7 +17550,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 238.76 250.19 0)
+			(at 236.22 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17352,7 +17561,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 238.76 252.73 0)
+			(at 236.22 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22971,6 +23180,122 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
+		(at 261.62 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c271786-804e-4c50-bccd-60ff6752a87f")
+		(property "Reference" "H3"
+			(at 270.51 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 260.096 267.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 284.48 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
+			(at 284.48 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
+			(at 261.62 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 284.48 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774050151R"
+			(at 284.48 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 284.48 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 284.48 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1e835e3-32d9-4b92-8970-96fcc47b6468")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z")
 		(at 90.17 93.98 90)
 		(unit 1)
@@ -24080,159 +24405,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
-		(at 176.53 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56f1ad24-f391-46dd-899a-5a5386ad5037")
-		(property "Reference" "C5"
-			(at 179.07 167.6336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_100n_16V_X7R_0402"
-			(at 199.39 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 201.93 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
-			(at 204.47 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
-			(at 176.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C104J4RAC7411"
-			(at 207.01 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 179.07 170.1736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 186.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 189.23 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 196.85 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12689e8a-3897-409c-8be6-204b17ac9464")
-		)
-		(pin "2"
-			(uuid "17f0f64d-4c15-49c2-be15-4c43bb9fc52a")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 177.8 88.9 0)
 		(mirror y)
@@ -25085,101 +25257,6 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+5V")
-		(at 240.03 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64e8b254-80cb-453b-9598-3a57840d8286")
-		(property "Reference" "#PWR028"
-			(at 255.27 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 240.03 249.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 255.27 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 255.27 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb8b501b-97cb-4708-8f52-74cca9585189")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -26736,103 +26813,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+5V")
-		(at 227.33 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7715ee23-ea71-4ae8-8547-a305ad283287")
-		(property "Reference" "#PWR024"
-			(at 242.57 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 227.33 249.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 242.57 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 242.57 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "271f47a9-d351-46b1-89f9-dfc360141f07")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_560R_0402")
-		(at 237.49 242.57 0)
+		(at 234.95 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26841,7 +26823,7 @@
 		(fields_autoplaced yes)
 		(uuid "782a3d1c-1efa-4f32-881c-bb80bb54d55b")
 		(property "Reference" "R12"
-			(at 240.03 236.22 0)
+			(at 237.49 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26850,7 +26832,7 @@
 			)
 		)
 		(property "Value" "R_560R_0402"
-			(at 257.81 255.27 0)
+			(at 255.27 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26861,7 +26843,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 257.81 257.81 0)
+			(at 255.27 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26872,7 +26854,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 257.81 260.35 0)
+			(at 255.27 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26883,7 +26865,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 560 ohm, ± 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
-			(at 237.49 242.57 0)
+			(at 234.95 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26892,7 +26874,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-5600GLF"
-			(at 257.81 262.89 0)
+			(at 255.27 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26903,7 +26885,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 257.81 265.43 0)
+			(at 255.27 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26914,7 +26896,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 257.81 267.97 0)
+			(at 255.27 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26925,7 +26907,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 257.81 270.51 0)
+			(at 255.27 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26936,7 +26918,7 @@
 			)
 		)
 		(property "Val" "560R"
-			(at 240.03 238.76 0)
+			(at 237.49 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26945,7 +26927,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 257.81 252.73 0)
+			(at 255.27 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27607,159 +27589,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
-		(at 227.33 255.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8432a0a8-3c17-4db6-9028-cdf1eabaf8fb")
-		(property "Reference" "C6"
-			(at 229.235 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_100n_16V_X7R_0402"
-			(at 204.47 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 201.93 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
-			(at 199.39 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 212.09 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C104J4RAC7411"
-			(at 196.85 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 229.235 259.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 209.55 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 207.01 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 217.17 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 214.63 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a14c44c-a018-4739-abdb-34daa2e0c3be")
-		)
-		(pin "2"
-			(uuid "8fcdd772-b0c4-4535-9cc0-1331ee3bb48d")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z")
-		(at 232.41 242.57 180)
+		(at 229.87 250.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27768,7 +27599,7 @@
 		(fields_autoplaced yes)
 		(uuid "84b761f8-0dd0-414e-85e3-d1a81be03a17")
 		(property "Reference" "D11"
-			(at 229.87 236.22 0)
+			(at 227.33 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27776,7 +27607,7 @@
 			)
 		)
 		(property "Value" "LED_G_0603_LG_L29K-G2J1-24-Z"
-			(at 212.09 234.95 0)
+			(at 209.55 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27787,7 +27618,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 212.09 232.41 0)
+			(at 209.55 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27798,7 +27629,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/19ee86b3ae0ee95b/original/LG-L29K.pdf"
-			(at 212.09 229.87 0)
+			(at 209.55 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27809,7 +27640,7 @@
 			)
 		)
 		(property "Description" "LED, Green, SMD, 0603, 20 mA, 1.7 V, 570 nm"
-			(at 232.41 242.57 0)
+			(at 229.87 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27818,7 +27649,7 @@
 			)
 		)
 		(property "MPN" "LG L29K-G2J1-24-Z"
-			(at 212.09 227.33 0)
+			(at 209.55 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27829,7 +27660,7 @@
 			)
 		)
 		(property "Manufacturer" "OSRAM"
-			(at 212.09 224.79 0)
+			(at 209.55 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27840,7 +27671,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 212.09 222.25 0)
+			(at 209.55 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27851,7 +27682,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 212.09 219.71 0)
+			(at 209.55 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27862,7 +27693,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 229.87 238.76 0)
+			(at 227.33 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27870,7 +27701,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 212.09 224.79 0)
+			(at 209.55 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28557,7 +28388,7 @@
 	)
 	(symbol
 		(lib_id "antmicroFerriteBeadsandChips:FB_120Z_2A_Murata-BLM18PG_0603")
-		(at 234.95 224.79 0)
+		(at 232.41 232.41 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28566,7 +28397,7 @@
 		(dnp no)
 		(uuid "96921fa3-2383-4016-80f8-625c5fb4ad04")
 		(property "Reference" "L1"
-			(at 237.49 219.71 0)
+			(at 234.95 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28574,7 +28405,7 @@
 			)
 		)
 		(property "Value" "FB_120Z_2A_Murata-BLM18PG_0603"
-			(at 250.19 222.25 0)
+			(at 247.65 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28585,7 +28416,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:FB_0603_1608Metric"
-			(at 250.19 217.17 0)
+			(at 247.65 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28596,7 +28427,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf"
-			(at 250.19 214.63 0)
+			(at 247.65 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28607,7 +28438,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 224.79 0)
+			(at 232.41 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28616,7 +28447,7 @@
 			)
 		)
 		(property "MPN" "BLM18PG121SN1D"
-			(at 250.19 212.09 0)
+			(at 247.65 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28627,7 +28458,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 250.19 209.55 0)
+			(at 247.65 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28638,7 +28469,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 250.19 207.01 0)
+			(at 247.65 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28649,7 +28480,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 250.19 204.47 0)
+			(at 247.65 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28660,7 +28491,7 @@
 			)
 		)
 		(property "Val" "120Z/2A"
-			(at 232.41 220.98 0)
+			(at 229.87 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28669,7 +28500,7 @@
 			)
 		)
 		(property "Current" ""
-			(at 255.27 201.93 0)
+			(at 252.73 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28680,7 +28511,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 255.27 209.55 0)
+			(at 252.73 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29822,99 +29653,6 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 240.03 260.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abe5fcee-f506-44a5-a779-fcaae2d960b6")
-		(property "Reference" "#PWR029"
-			(at 240.03 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 248.92 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 248.92 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37b61349-367b-46e9-af08-6b75c769b1d7")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -31607,6 +31345,99 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
+		(at 259.08 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bffa9bde-ea92-44aa-a968-47dd8aaba653")
+		(property "Reference" "#PWR9"
+			(at 259.08 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 282.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 267.97 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 267.97 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9b53c4e-d3e9-4432-82c3-fcd2a18afd63")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
 		(at 33.02 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31760,6 +31591,122 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
+		(at 261.62 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5172e75-9b4a-4b63-8526-eed5f1d3b845")
+		(property "Reference" "H2"
+			(at 270.51 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 260.096 258.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 284.48 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
+			(at 284.48 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
+			(at 261.62 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 284.48 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774050151R"
+			(at 284.48 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 284.48 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 284.48 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3546cbf6-d8f5-41a8-b839-4486c9c950a4")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -33199,7 +33146,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 228.6 224.79 90)
+		(at 226.06 232.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33207,7 +33154,7 @@
 		(dnp no)
 		(uuid "db1b764d-dfe3-44fd-829c-7b90c1a3bd91")
 		(property "Reference" "#FLG01"
-			(at 226.695 224.79 0)
+			(at 224.155 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33216,7 +33163,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 224.79 222.25 90)
+			(at 222.25 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33224,7 +33171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 224.79 0)
+			(at 226.06 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33233,7 +33180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 224.79 0)
+			(at 226.06 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33242,7 +33189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 224.79 0)
+			(at 226.06 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33264,7 +33211,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 245.11 226.06 0)
+		(at 242.57 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33273,7 +33220,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbb196d1-8fa0-44fb-a055-607bd9c45a39")
 		(property "Reference" "#PWR019"
-			(at 245.11 232.41 0)
+			(at 242.57 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33282,7 +33229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 231.14 0)
+			(at 242.57 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33291,7 +33238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 233.68 0)
+			(at 251.46 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33302,7 +33249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 238.76 0)
+			(at 251.46 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33313,7 +33260,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 226.06 0)
+			(at 242.57 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33322,7 +33269,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 254 233.68 0)
+			(at 251.46 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33333,7 +33280,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 254 236.22 0)
+			(at 251.46 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34855,99 +34802,6 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 227.33 260.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e31cf396-54ce-4ea2-ab9c-e1a20f7f9b37")
-		(property "Reference" "#PWR025"
-			(at 227.33 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 227.33 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 236.22 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 236.22 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bf1c247-840f-437d-9129-80a9bb900518")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
 		(at 63.5 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35043,7 +34897,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GNDREF")
-		(at 229.87 226.06 0)
+		(at 227.33 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35052,7 +34906,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea7c551f-0e46-422e-b841-c050f8c3bd9f")
 		(property "Reference" "#PWR015"
-			(at 229.87 232.41 0)
+			(at 227.33 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35061,7 +34915,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 229.87 231.14 0)
+			(at 227.33 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35069,7 +34923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 226.06 0)
+			(at 227.33 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35078,7 +34932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 226.06 0)
+			(at 227.33 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35087,7 +34941,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 226.06 0)
+			(at 227.33 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35102,157 +34956,6 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
-		(at 240.03 255.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb3225e9-7913-42c5-9ff0-35984611c20b")
-		(property "Reference" "C8"
-			(at 241.935 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_100n_16V_X7R_0402"
-			(at 217.17 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 214.63 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
-			(at 212.09 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 224.79 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C104J4RAC7411"
-			(at 209.55 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 241.935 259.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 222.25 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 219.71 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 229.87 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 227.33 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26c290e6-6535-4c42-a70e-0afc0ecde762")
-		)
-		(pin "2"
-			(uuid "5724a014-2004-42e9-b3f5-0597e70b5e9b")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -35373,17 +35076,36 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 176.53 172.72 0)
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
+		(at 261.62 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed727359-f276-4156-a697-173e5d2c939d")
-		(property "Reference" "#PWR09"
-			(at 185.42 175.26 0)
+		(uuid "f02b7a81-37ef-4f43-820f-54a98635065b")
+		(property "Reference" "H1"
+			(at 270.51 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 260.096 249.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 284.48 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35393,17 +35115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 176.53 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 180.34 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
+			(at 284.48 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35413,8 +35126,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 185.42 0)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
+			(at 261.62 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 284.48 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35424,17 +35146,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 176.53 172.72 0)
+		(property "MPN" "9774050151R"
+			(at 284.48 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 185.42 180.34 0)
+			(at 284.48 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35445,7 +35169,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 185.42 182.88 0)
+			(at 284.48 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35456,12 +35180,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa20d6cc-46b9-4bf9-ad44-7e8ae660b868")
+			(uuid "06c93a3f-20bf-42b1-a82f-06233504a309")
 		)
 		(instances
-			(project "hdmi-edid-board"
+			(project ""
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR09")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -36153,46 +35877,36 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 247.65 242.57 0)
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
+		(at 261.62 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc3eeef2-98fe-48f1-9c3c-9cfc4858e805")
-		(property "Reference" "#PWR022"
-			(at 247.65 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 247.015 0)
+		(uuid "fbf5cff8-d3aa-4796-89c7-b5eba139a0f4")
+		(property "Reference" "H4"
+			(at 270.51 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 250.19 0)
+		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 260.096 276.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" ""
-			(at 256.54 255.27 0)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 284.48 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36202,17 +35916,50 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 247.65 242.57 0)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
+			(at 284.48 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
+			(at 261.62 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 284.48 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774050151R"
+			(at 284.48 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 256.54 250.19 0)
+			(at 284.48 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36223,7 +35970,100 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 256.54 252.73 0)
+			(at 284.48 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f7914c0-a697-49b0-ab6d-98182d9f8178")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 245.11 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc3eeef2-98fe-48f1-9c3c-9cfc4858e805")
+		(property "Reference" "#PWR022"
+			(at 245.11 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 254.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 254 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 254 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
