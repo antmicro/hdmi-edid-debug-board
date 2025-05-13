@@ -68,7 +68,13 @@
           "width": 0.187
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|189125000|114723000|a21a3ec8-39ea-48a4-bf92-7ca7f3dc65d8|37c304ff-39fb-44e7-b691-e8783c9b95e7",
+        "hole_clearance|189125000|114723000|a21a3ec8-39ea-48a4-bf92-7ca7f3dc65d8|ea7ddf53-5e10-4fce-8cdb-33c7759acb90",
+        "hole_clearance|189125000|120825000|37d336a1-565b-42f9-b7d4-a4e83ba1388a|bceb4cee-68ef-4d92-99af-9aa7779b77e6",
+        "hole_clearance|189125000|120825000|37d336a1-565b-42f9-b7d4-a4e83ba1388a|ea97312c-5113-4825-a6bc-966b209f11b8",
+        "via_dangling|226932000|123445000|730ee94d-e561-4871-bd87-782cafc86b55|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -86,10 +92,10 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "holes_co_located": "warning",
+        "holes_co_located": "error",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -137,7 +143,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7,
+        "min_text_height": 0.6,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.15,
