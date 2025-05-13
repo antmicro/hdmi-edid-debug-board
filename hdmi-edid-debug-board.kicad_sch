@@ -10134,6 +10134,12 @@
 		(uuid "b0489cca-bf68-4607-81e8-518cf551b1b1")
 	)
 	(junction
+		(at 295.91 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b186fc50-606c-4233-b3b6-209fc42b4123")
+	)
+	(junction
 		(at 21.59 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13431,6 +13437,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 55.88) (xy 285.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba733005-2de3-4834-804f-2ed8e33834a0")
+	)
+	(wire
+		(pts
 			(xy 49.53 68.58) (xy 76.2 68.58)
 		)
 		(stroke
@@ -13998,6 +14014,16 @@
 			(type default)
 		)
 		(uuid "dedd3804-8cfb-4be0-bf2c-ac8b2e28528a")
+	)
+	(wire
+		(pts
+			(xy 285.75 53.34) (xy 295.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e021bf73-3af7-46b6-b53c-f69e8df1b2c9")
 	)
 	(wire
 		(pts
@@ -36246,6 +36272,99 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 285.75 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9568504-c7fa-4413-94ea-708883c4139c")
+		(property "Reference" "#PWR083"
+			(at 285.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 276.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5f6ef6e-017d-4d4c-8eb9-913dcbad0750")
+		)
+		(instances
+			(project "hdmi-edid-debug-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_4u7_0402")
 		(at 292.1 76.2 270)
 		(unit 1)
@@ -40306,6 +40425,157 @@
 			(project "hdmi-edid-debug-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(at 285.75 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f267f127-5b2c-4408-843a-229ebfcc24de")
+		(property "Reference" "C10"
+			(at 279.4 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_16V_X7R_0402"
+			(at 262.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+			(at 257.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 270.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104J4RAC7411"
+			(at 255.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 278.765 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 267.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 265.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 275.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 273.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9cf9ecd-c59f-4aff-bc2c-0b8c2ddbdb63")
+		)
+		(pin "2"
+			(uuid "a0bcd899-2c68-4028-8ae6-3b3b9d501b62")
+		)
+		(instances
+			(project "hdmi-edid-debug-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "C10")
 					(unit 1)
 				)
 			)
