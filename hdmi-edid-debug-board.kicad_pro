@@ -68,7 +68,9 @@
           "width": 0.187
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "via_dangling|226550000|123463000|730ee94d-e561-4871-bd87-782cafc86b55|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -253,7 +255,7 @@
   "erc": {
     "erc_exclusions": [
       "lib_symbol_issues|495300|355600|f06c1b68-7d6e-480c-b0e5-8fb5db627f01|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|1384300|863600|77ca767c-21be-4cf8-b799-557345a0a7d9|00000000-0000-0000-0000-000000000000|/69739539-a836-41d5-a30c-27bc9a8ece0f|/69739539-a836-41d5-a30c-27bc9a8ece0f|",
+      "power_pin_not_driven|1346200|863600|77ca767c-21be-4cf8-b799-557345a0a7d9|00000000-0000-0000-0000-000000000000|/69739539-a836-41d5-a30c-27bc9a8ece0f|/69739539-a836-41d5-a30c-27bc9a8ece0f|",
       "power_pin_not_driven|495300|863600|f9a41e2c-5b28-4ef4-9e34-2be6229ce319|00000000-0000-0000-0000-000000000000|/69739539-a836-41d5-a30c-27bc9a8ece0f|/69739539-a836-41d5-a30c-27bc9a8ece0f|"
     ],
     "meta": {
@@ -609,11 +611,107 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current",
+          "name": "Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "DNP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field-1",
+          "name": "Field-1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Public",
+          "name": "Public",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VSD_Class",
+          "name": "VSD_Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Val",
+          "name": "Val",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
