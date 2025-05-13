@@ -68,9 +68,7 @@
           "width": 0.187
         }
       ],
-      "drc_exclusions": [
-        "via_dangling|226550000|123463000|730ee94d-e561-4871-bd87-782cafc86b55|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
