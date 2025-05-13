@@ -1,10 +1,10 @@
-# HDMI EDID Board
+# HDMI EDID Debug Board
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This repository contains open hardware design files for HDMI EDID Board.
+This repository contains open hardware design files for HDMI EDID Debug Board.
 
 The design files were prepared in [KiCad](https://www.kicad.org/).
 
