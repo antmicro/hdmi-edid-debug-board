@@ -1625,229 +1625,6 @@
 				)
 			)
 		)
-		(symbol "antmicroDiodesRectifiersSingle:BAT54-02V-G3-08"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 21.59 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "BAT54-02V-G3-08"
-				(at 21.59 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SOD-523"
-				(at 21.59 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85633/bat5402v.pdf"
-				(at 21.59 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 800 mV, 600 mA, 125 °C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "BAT54-02V-G3-08"
-				(at 21.59 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 21.59 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 21.59 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 21.59 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, SEMICONDUCTOR, DIODE, SCHOTTKY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT54-02V-G3-08_0_1"
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT54-02V-G3-08_1_1"
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -1.016) (xy 2.159 -1.016) (xy 2.159 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.397 1.016) (xy 1.397 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "antmicroFerriteBeadsandChips:FB_120Z_2A_Murata-BLM18PG_0603"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -4148,7 +3925,7 @@
 				)
 			)
 		)
-		(symbol "antmicroLogicTranslatorsLevelShifters:NTS0302JKZ"
+		(symbol "antmicroLogicTranslatorsLevelShifters:NTS0102_TSSOP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4162,7 +3939,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "NTS0302JKZ"
+			(property "Value" "NTS0102_TSSOP"
 				(at 35.56 -6.35 0)
 				(effects
 					(font
@@ -4173,7 +3950,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:X2SON8_1.4x1x0.32mm_P0.35mm"
+			(property "Footprint" "antmicro-footprints:TSSOP-8_3x3mm_P0.65mm"
 				(at 35.56 -8.89 0)
 				(effects
 					(font
@@ -4184,7 +3961,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NTS0302.pdf"
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/302/NTS0102-1127324.pdf"
 				(at 35.56 -11.43 0)
 				(effects
 					(font
@@ -4195,8 +3972,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Translating Transceiver IC 8-X2SON (1.4x1)"
-				(at 0.508 5.842 0)
+			(property "Description" "Transceiver, 1.65 V to 3.6 V, TSSOP-8"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4204,7 +3981,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "NTS0302JKZ"
+			(property "MPN" "NTS0102DP"
 				(at 35.56 -13.97 0)
 				(effects
 					(font
@@ -4256,7 +4033,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NTS0302JKZ_1_1"
+			(symbol "NTS0102_TSSOP_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 17.78 -10.16)
@@ -4268,10 +4045,10 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 0 0 0)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
 					(length 2.54)
-					(name "VCC_A"
+					(name "B_{2}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4279,42 +4056,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4332,7 +4073,61 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "VCC_{A}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "A_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "A_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4350,24 +4145,6 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "6"
 						(effects
 							(font
@@ -4376,10 +4153,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 -2.54 180)
+				(pin power_in line
+					(at 20.32 0 180)
 					(length 2.54)
-					(name "B1"
+					(name "VCC_{B}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4394,10 +4171,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 0 180)
+				(pin bidirectional line
+					(at 20.32 -2.54 180)
 					(length 2.54)
-					(name "VCC_B"
+					(name "B_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6323,189 +6100,6 @@
 				)
 			)
 			(symbol "R_12k_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "antmicroResistors0402:R_220R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_220R_0402"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CR0402-FX-2200GLF"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "220R"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_220R_0402_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_220R_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -10192,12 +9786,6 @@
 		(uuid "137244d8-cfd5-4712-93bc-7b6122b27df5")
 	)
 	(junction
-		(at 381 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "144efbc3-a632-46b9-84ee-e2140109b267")
-	)
-	(junction
 		(at 302.26 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10234,6 +9822,12 @@
 		(uuid "255f3577-3dd7-492a-8a8c-e13c7fd55c56")
 	)
 	(junction
+		(at 341.63 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "272e7309-6f5e-401f-9da0-85a476172464")
+	)
+	(junction
 		(at 292.1 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10256,12 +9850,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2daf53eb-cb24-4185-a992-c271f97cf3ea")
-	)
-	(junction
-		(at 377.19 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32374e7e-7513-484f-bd13-d077f2385725")
 	)
 	(junction
 		(at 219.71 158.75)
@@ -10306,12 +9894,6 @@
 		(uuid "47112f63-5c83-4e6d-958a-d3d3911ec318")
 	)
 	(junction
-		(at 350.52 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e8a2b4c-075a-49d3-a760-ee82f353c956")
-	)
-	(junction
 		(at 21.59 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10354,12 +9936,6 @@
 		(uuid "778382b4-e6ea-44d5-b068-22c8cbe8df30")
 	)
 	(junction
-		(at 374.65 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "828b06df-fcaf-4bd0-bc58-0ed0a9e56300")
-	)
-	(junction
 		(at 300.99 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10378,12 +9954,6 @@
 		(uuid "8dc486e0-27df-4c73-8c9a-6eb8e1d56930")
 	)
 	(junction
-		(at 378.46 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "907fa047-a8a9-429d-8b5e-b009ddae04b6")
-	)
-	(junction
 		(at 234.95 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10394,6 +9964,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95e0ef2e-d9d9-40ae-848c-fe93d66679d2")
+	)
+	(junction
+		(at 375.92 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9602b0a4-31e3-46ec-9185-79b2fcf6c561")
 	)
 	(junction
 		(at 60.96 86.36)
@@ -10556,6 +10132,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb2267e2-8017-441a-a6e5-b840ea8d0ba1")
+	)
+	(junction
+		(at 377.19 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd094544-1e66-4e69-bb30-7d06cc693b39")
 	)
 	(junction
 		(at 273.05 212.09)
@@ -10725,7 +10307,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 218.44) (xy 379.73 218.44)
+			(xy 373.38 209.55) (xy 388.62 209.55)
 		)
 		(stroke
 			(width 0)
@@ -10795,13 +10377,13 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 203.2) (xy 394.97 201.93)
+			(xy 377.19 205.74) (xy 377.19 207.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07f08b0d-a2d0-42e0-9e8e-d6aee6ce2114")
+		(uuid "06558a36-dd58-4ba7-bf18-f2d26ab83223")
 	)
 	(wire
 		(pts
@@ -10915,6 +10497,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 232.41) (xy 341.63 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f155bce-3101-40df-87e8-19f93783f039")
+	)
+	(wire
+		(pts
 			(xy 308.61 214.63) (xy 308.61 212.09)
 		)
 		(stroke
@@ -10985,16 +10577,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 181.61) (xy 62.23 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c26de7-2287-4381-a36c-0b5b05a8bf94")
-	)
-	(wire
-		(pts
 			(xy 175.26 71.12) (xy 187.96 71.12)
 		)
 		(stroke
@@ -11002,16 +10584,6 @@
 			(type default)
 		)
 		(uuid "14692e93-b286-4526-8071-bf9f9a4dfcda")
-	)
-	(wire
-		(pts
-			(xy 349.25 223.52) (xy 349.25 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14fd8c21-c7e2-437c-8ea0-e3f5d4b2d86b")
 	)
 	(wire
 		(pts
@@ -11045,7 +10617,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 215.9) (xy 374.65 215.9)
+			(xy 373.38 207.01) (xy 377.19 207.01)
 		)
 		(stroke
 			(width 0)
@@ -11105,6 +10677,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 233.68) (xy 389.89 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198346c1-9120-4bd3-9da8-b733c6d5fbde")
+	)
+	(wire
+		(pts
 			(xy 78.74 86.36) (xy 85.09 86.36)
 		)
 		(stroke
@@ -11152,6 +10734,16 @@
 			(type default)
 		)
 		(uuid "1be5f074-bb5f-40c2-aacf-07d1592568b0")
+	)
+	(wire
+		(pts
+			(xy 59.69 176.53) (xy 62.23 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c71ea9c-2e8c-401f-a157-9adbf71d45e4")
 	)
 	(wire
 		(pts
@@ -11212,16 +10804,6 @@
 			(type default)
 		)
 		(uuid "217fbaff-5e4c-4b12-b49c-81700939bfb2")
-	)
-	(wire
-		(pts
-			(xy 381 209.55) (xy 381 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2208855d-efc6-43e4-bdd6-5f5c5ef0cd72")
 	)
 	(wire
 		(pts
@@ -11315,6 +10897,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 212.09) (xy 335.28 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2790433c-41eb-4101-9588-41cc2f73e183")
+	)
+	(wire
+		(pts
 			(xy 214.63 57.15) (xy 227.33 57.15)
 		)
 		(stroke
@@ -11332,16 +10924,6 @@
 			(type default)
 		)
 		(uuid "27b11e41-ba0a-472b-b15c-40315cd29dc5")
-	)
-	(wire
-		(pts
-			(xy 389.89 203.2) (xy 394.97 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ed0a9f-320b-43ae-baed-888f0c4a7c6e")
 	)
 	(wire
 		(pts
@@ -11415,16 +10997,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 231.14) (xy 378.46 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e72676e-c0e0-4217-ba9e-44aafb11e564")
-	)
-	(wire
-		(pts
 			(xy 175.26 50.8) (xy 187.96 50.8)
 		)
 		(stroke
@@ -11452,6 +11024,16 @@
 			(type default)
 		)
 		(uuid "313b36b7-94a3-478d-bb98-ef70e6bf666b")
+	)
+	(wire
+		(pts
+			(xy 384.81 207.01) (xy 377.19 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a88538-6f63-402c-bd34-0c399ac60c67")
 	)
 	(wire
 		(pts
@@ -11655,16 +11237,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 215.9) (xy 374.65 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41019ab4-9840-46ae-bdd4-3a4139cf8917")
-	)
-	(wire
-		(pts
 			(xy 38.1 246.38) (xy 38.1 247.65)
 		)
 		(stroke
@@ -11735,16 +11307,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 223.52) (xy 372.11 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45b09eec-a499-4603-93e5-e0ab9d338969")
-	)
-	(wire
-		(pts
 			(xy 227.33 233.68) (xy 227.33 232.41)
 		)
 		(stroke
@@ -11805,13 +11367,13 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 223.52) (xy 351.79 223.52)
+			(xy 350.52 233.68) (xy 350.52 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c383f7b-409e-449c-9214-8c31632e231c")
+		(uuid "4a9c9eea-ac9b-4aa7-bc64-ee3fe4ff8777")
 	)
 	(wire
 		(pts
@@ -11995,13 +11557,23 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 215.9) (xy 350.52 203.2)
+			(xy 350.52 207.01) (xy 350.52 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59964b1a-4bf2-4c21-9caf-fd20cd720686")
+	)
+	(wire
+		(pts
+			(xy 374.65 214.63) (xy 374.65 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2dcc47-ea97-4552-bde5-6314b96cf087")
 	)
 	(wire
 		(pts
@@ -12012,6 +11584,16 @@
 			(type default)
 		)
 		(uuid "5a648784-a200-48ad-b06f-a7e32c71a9c5")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 156.21 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aae9bdc-20c9-47a6-9ef3-62ccb17d0b5f")
 	)
 	(polyline
 		(pts
@@ -12135,17 +11717,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 203.2) (xy 381 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "625afe09-acd7-483b-9a67-4a259e638884")
-	)
-	(wire
-		(pts
-			(xy 351.79 215.9) (xy 350.52 215.9)
+			(xy 353.06 207.01) (xy 350.52 207.01)
 		)
 		(stroke
 			(width 0)
@@ -12235,16 +11807,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 179.07) (xy 62.23 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "673cb388-f0e4-4c03-a40a-1eba6530f1db")
-	)
-	(wire
-		(pts
 			(xy 294.64 212.09) (xy 302.26 212.09)
 		)
 		(stroke
@@ -12305,6 +11867,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 242.57) (xy 341.63 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dad0b40-9506-43cb-a3ad-56252ec84b1e")
+	)
+	(wire
+		(pts
 			(xy 167.64 179.07) (xy 170.18 179.07)
 		)
 		(stroke
@@ -12335,16 +11907,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 231.14) (xy 373.38 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "703bb61a-ce12-476d-8563-ce917e77a2fc")
-	)
-	(wire
-		(pts
 			(xy 379.73 69.85) (xy 387.35 69.85)
 		)
 		(stroke
@@ -12352,6 +11914,16 @@
 			(type default)
 		)
 		(uuid "72162a40-43d7-49e4-ba91-22599ef98827")
+	)
+	(wire
+		(pts
+			(xy 389.89 242.57) (xy 389.89 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7260152e-77f7-41f8-b485-d313b937ffe5")
 	)
 	(wire
 		(pts
@@ -12405,6 +11977,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 214.63) (xy 373.38 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a61b70-db6f-478e-97e4-397f6cff43ad")
+	)
+	(wire
+		(pts
 			(xy 193.04 226.06) (xy 193.04 227.33)
 		)
 		(stroke
@@ -12415,6 +11997,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 106.68) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75238cfa-51b7-443a-abf4-98452ce27401")
+	)
+	(wire
+		(pts
 			(xy 49.53 53.34) (xy 138.43 53.34)
 		)
 		(stroke
@@ -12422,6 +12014,26 @@
 			(type default)
 		)
 		(uuid "75a53bf4-e153-4d12-81f2-4b1373413398")
+	)
+	(wire
+		(pts
+			(xy 350.52 232.41) (xy 341.63 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c608ac-d3ac-4ba5-9e7e-9ed317128851")
+	)
+	(wire
+		(pts
+			(xy 140.97 104.14) (xy 156.21 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76792e2f-aa58-4f72-80e0-a6690d24cb13")
 	)
 	(wire
 		(pts
@@ -12505,6 +12117,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 233.68) (xy 375.92 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c24295a-d244-45a0-bce2-edda258839b9")
+	)
+	(wire
+		(pts
 			(xy 337.82 137.16) (xy 337.82 139.7)
 		)
 		(stroke
@@ -12552,6 +12174,26 @@
 			(type default)
 		)
 		(uuid "7dd8938c-b37c-4513-8fb3-047cd2788105")
+	)
+	(wire
+		(pts
+			(xy 384.81 205.74) (xy 384.81 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dffa74a-e2c1-4f0c-8c78-e20b69c44840")
+	)
+	(wire
+		(pts
+			(xy 375.92 242.57) (xy 375.92 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb1469a-ba02-4c66-9adf-f8f775baff49")
 	)
 	(wire
 		(pts
@@ -12622,26 +12264,6 @@
 			(type default)
 		)
 		(uuid "83473ceb-8c00-4f55-8dbf-1de3d8fcedff")
-	)
-	(wire
-		(pts
-			(xy 381 203.2) (xy 384.81 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c8c83b-8068-42a2-a001-6aad78d64f61")
-	)
-	(wire
-		(pts
-			(xy 381 204.47) (xy 381 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84b8c4e0-325f-4731-b88a-2e1f2ce4063d")
 	)
 	(wire
 		(pts
@@ -12745,16 +12367,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 231.14) (xy 378.46 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ba203db-9427-4382-80ef-cefa98f45fa0")
-	)
-	(wire
-		(pts
 			(xy 224.79 59.69) (xy 227.33 59.69)
 		)
 		(stroke
@@ -12772,6 +12384,16 @@
 			(type default)
 		)
 		(uuid "8cb5488a-3edb-4f16-a4ee-48f444037b38")
+	)
+	(wire
+		(pts
+			(xy 350.52 214.63) (xy 353.06 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdd0339-7214-4598-9786-7c11bf889c06")
 	)
 	(wire
 		(pts
@@ -12795,7 +12417,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 218.44) (xy 331.47 218.44)
+			(xy 353.06 209.55) (xy 345.44 209.55)
 		)
 		(stroke
 			(width 0)
@@ -12855,16 +12477,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 201.93) (xy 377.19 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92287692-eec1-496d-8a0d-cfa5108650ed")
-	)
-	(wire
-		(pts
 			(xy 153.67 238.76) (xy 179.07 238.76)
 		)
 		(stroke
@@ -12905,6 +12517,16 @@
 	)
 	(wire
 		(pts
+			(xy 397.51 205.74) (xy 397.51 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a22317-3b44-468d-968a-7dc7423b2859")
+	)
+	(wire
+		(pts
 			(xy 166.37 86.36) (xy 163.83 86.36)
 		)
 		(stroke
@@ -12915,7 +12537,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 220.98) (xy 351.79 220.98)
+			(xy 345.44 212.09) (xy 353.06 212.09)
 		)
 		(stroke
 			(width 0)
@@ -13002,6 +12624,26 @@
 			(type default)
 		)
 		(uuid "9bd505b0-3322-4158-aef6-8dd7d048e73b")
+	)
+	(wire
+		(pts
+			(xy 388.62 242.57) (xy 375.92 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cefd459-09e5-46f0-b87e-41fb007bd853")
+	)
+	(wire
+		(pts
+			(xy 402.59 242.57) (xy 389.89 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf299e0-1e4c-42f6-808e-f9b36b830943")
 	)
 	(wire
 		(pts
@@ -13205,16 +12847,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 203.2) (xy 359.41 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5b74a0e-e351-46df-b4ac-886df3615884")
-	)
-	(wire
-		(pts
 			(xy 288.29 149.86) (xy 287.02 149.86)
 		)
 		(stroke
@@ -13265,6 +12897,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 242.57) (xy 350.52 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7427fd-fcef-41f1-a146-cb38a9a113a8")
+	)
+	(wire
+		(pts
 			(xy 53.34 234.95) (xy 63.5 234.95)
 		)
 		(stroke
@@ -13305,16 +12947,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 220.98) (xy 405.13 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b25cd4c3-1dfa-401c-b454-c5d3173b66a1")
-	)
-	(wire
-		(pts
 			(xy 166.37 83.82) (xy 166.37 86.36)
 		)
 		(stroke
@@ -13322,6 +12954,16 @@
 			(type default)
 		)
 		(uuid "b277621b-e36e-4ccb-9a1f-daa73e451259")
+	)
+	(wire
+		(pts
+			(xy 341.63 242.57) (xy 341.63 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b434c968-b31e-43e4-9933-c2fe29568f6c")
 	)
 	(polyline
 		(pts
@@ -13595,13 +13237,13 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 203.2) (xy 374.65 203.2)
+			(xy 350.52 242.57) (xy 350.52 238.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c43dd9e2-1355-4489-863c-b485e0363bad")
+		(uuid "c41d8f95-ed24-4751-b67d-bbea7ed55467")
 	)
 	(wire
 		(pts
@@ -13615,16 +13257,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 218.44) (xy 405.13 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5dfd0c0-bd5e-483a-822a-7d9d21825c56")
-	)
-	(wire
-		(pts
 			(xy 48.26 148.59) (xy 48.26 149.86)
 		)
 		(stroke
@@ -13632,16 +13264,6 @@
 			(type default)
 		)
 		(uuid "c6fbabeb-9eab-4367-9130-a8e64fa64d64")
-	)
-	(wire
-		(pts
-			(xy 374.65 203.2) (xy 377.19 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c744e3d3-e720-4d3c-922b-b89c523df59c")
 	)
 	(wire
 		(pts
@@ -13765,6 +13387,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 231.14) (xy 341.63 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e1997c-541c-4924-96c0-890e9394b92c")
+	)
+	(wire
+		(pts
 			(xy 185.42 109.22) (xy 187.96 109.22)
 		)
 		(stroke
@@ -13772,6 +13404,16 @@
 			(type default)
 		)
 		(uuid "d1fae167-ecfe-41a3-9eb5-7529e448251a")
+	)
+	(wire
+		(pts
+			(xy 389.89 232.41) (xy 375.92 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22c3822-da20-4012-8729-a0ed408ebbc5")
 	)
 	(wire
 		(pts
@@ -13935,6 +13577,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 204.47) (xy 335.28 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca9087c-7666-4a12-b226-bc4e884f55c8")
+	)
+	(wire
+		(pts
 			(xy 163.83 81.28) (xy 166.37 81.28)
 		)
 		(stroke
@@ -13972,16 +13624,6 @@
 			(type default)
 		)
 		(uuid "dedd3804-8cfb-4be0-bf2c-ac8b2e28528a")
-	)
-	(wire
-		(pts
-			(xy 46.99 176.53) (xy 62.23 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df797794-42ac-46a1-9a88-ed66a61db8e0")
 	)
 	(wire
 		(pts
@@ -14075,6 +13717,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 231.14) (xy 375.92 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6775224-1b78-44b2-a3d7-6aae564b9f6d")
+	)
+	(wire
+		(pts
 			(xy 68.58 146.05) (xy 66.04 146.05)
 		)
 		(stroke
@@ -14085,7 +13737,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 220.98) (xy 379.73 220.98)
+			(xy 373.38 212.09) (xy 388.62 212.09)
 		)
 		(stroke
 			(width 0)
@@ -14192,6 +13844,16 @@
 			(type default)
 		)
 		(uuid "f082e582-8540-4b64-ab0c-d183ee87ae9b")
+	)
+	(wire
+		(pts
+			(xy 397.51 210.82) (xy 397.51 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f298f19b-f090-4501-9330-0a4870e66185")
 	)
 	(wire
 		(pts
@@ -14342,16 +14004,6 @@
 			(type default)
 		)
 		(uuid "fcba2ee3-2853-425d-8bb9-22c774240475")
-	)
-	(wire
-		(pts
-			(xy 373.38 231.14) (xy 373.38 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0f8a5d-9cdd-45db-85b1-c5977e22c93d")
 	)
 	(wire
 		(pts
@@ -16439,9 +16091,9 @@
 		)
 		(uuid "182d453f-f76b-4843-9dd8-4d8b79a1ba71")
 	)
-	(text "I2C buffer"
+	(text "I2C level shifter"
 		(exclude_from_sim no)
-		(at 357.378 191.262 0)
+		(at 347.472 191.262 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -16593,6 +16245,17 @@
 		)
 		(uuid "059b9231-1a9d-4ad4-8c6c-4d1bf2e75bf3")
 	)
+	(label "EEPROM_SDA"
+		(at 402.59 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07704f80-9248-46bd-b405-13f9bc4d35d2")
+	)
 	(label "HDMI_D1_N"
 		(at 90.17 45.72 0)
 		(fields_autoplaced yes)
@@ -16692,6 +16355,17 @@
 		)
 		(uuid "30580b12-5fb3-4457-a8e8-9ab270bb24a3")
 	)
+	(label "EEPROM_SCL"
+		(at 140.97 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37cca927-f5ff-4c8b-b28b-ef493cb0dd1f")
+	)
 	(label "HDMI_CEC"
 		(at 214.63 92.71 0)
 		(fields_autoplaced yes)
@@ -16748,7 +16422,7 @@
 		(uuid "3bcd8e28-6fe5-4438-8aa1-ec603dd561c9")
 	)
 	(label "SCL"
-		(at 331.47 218.44 0)
+		(at 345.44 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16923,6 +16597,17 @@
 		)
 		(uuid "5e3db65f-bb93-4a2d-ab5b-ba6e782178fe")
 	)
+	(label "EEPROM_SCL"
+		(at 388.62 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f0c2050-111a-4d84-ad34-c45d894d77db")
+	)
 	(label "EEPROM_5V"
 		(at 213.36 137.16 180)
 		(fields_autoplaced yes)
@@ -17066,17 +16751,6 @@
 		)
 		(uuid "7cac51b9-ada9-4134-b998-8624eae4b779")
 	)
-	(label "EEPROM_SCL"
-		(at 46.99 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f0c0a2a-eae1-4ff7-9411-1094be2422b7")
-	)
 	(label "SCL"
 		(at 58.42 153.67 0)
 		(fields_autoplaced yes)
@@ -17131,6 +16805,17 @@
 			(justify right bottom)
 		)
 		(uuid "8c627706-8b1a-4169-9a1b-bc1399dfa4c7")
+	)
+	(label "SCL"
+		(at 345.44 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8caf7532-5919-4f96-bcf9-d4dc4c3a3c99")
 	)
 	(label "WP"
 		(at 147.32 166.37 0)
@@ -17188,7 +16873,7 @@
 		(uuid "91d7e453-eec4-4cbe-9157-41a3e8edc4e9")
 	)
 	(label "EEPROM_SCL"
-		(at 405.13 218.44 180)
+		(at 388.62 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17219,6 +16904,17 @@
 			(justify right bottom)
 		)
 		(uuid "a1754973-5f5d-48e7-88ef-d2a24e31d399")
+	)
+	(label "EEPROM_SDA"
+		(at 140.97 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a91e6b84-bb3f-49b4-b683-3e8d27bd39a0")
 	)
 	(label "HDMI_D2_P"
 		(at 214.63 49.53 0)
@@ -17263,6 +16959,17 @@
 			(justify left bottom)
 		)
 		(uuid "aef7a3d4-996e-416a-8eaf-a76d3823b257")
+	)
+	(label "SDA"
+		(at 354.33 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2137776-b6c3-45db-b9d8-2a92672870d7")
 	)
 	(label "SOURCE_SCL"
 		(at 175.26 86.36 0)
@@ -17406,17 +17113,6 @@
 			(justify left bottom)
 		)
 		(uuid "c55e3279-0ba3-4632-a437-5e6ad57a287e")
-	)
-	(label "EEPROM_SDA"
-		(at 46.99 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c631a0a1-6fd7-40b4-a7a4-8495154bb0f9")
 	)
 	(label "HDMI_UTIL"
 		(at 175.26 88.9 0)
@@ -17562,7 +17258,7 @@
 		(uuid "f8fb2f04-cc41-4fa1-80db-afd4c6fade59")
 	)
 	(label "SDA"
-		(at 331.47 220.98 0)
+		(at 345.44 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17595,7 +17291,7 @@
 		(uuid "fa4cd3cb-406c-446b-82da-c1bd7f964991")
 	)
 	(label "EEPROM_SDA"
-		(at 405.13 220.98 180)
+		(at 388.62 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17716,134 +17412,6 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroDiodesRectifiersSingle:BAT54-02V-G3-08")
-		(at 359.41 203.2 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "003fe010-ac89-4268-a109-49d42c113037")
-		(property "Reference" "D5"
-			(at 361.95 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54-02V-G3-08"
-			(at 353.695 205.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOD-523"
-			(at 381 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85633/bat5402v.pdf"
-			(at 381 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 359.41 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BAT54-02V-G3-08"
-			(at 351.79 200.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 381 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 381 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 381 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 379.73 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1182f40-749f-413e-a99f-880029ffdd6c")
-		)
-		(pin "2"
-			(uuid "22cad5df-f759-4249-9692-32fc9d3349c5")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -18254,17 +17822,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 59.69 181.61 0)
-		(mirror y)
+		(lib_id "antmicropower:+3V3")
+		(at 335.28 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "06ae5060-150c-4dce-b73e-20729f2e0975")
-		(property "Reference" "#PWR076"
-			(at 50.8 184.15 0)
+		(uuid "07411a6d-2be3-40e4-aeb6-69c7c1140ca3")
+		(property "Reference" "#PWR080"
+			(at 350.52 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18274,8 +17841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 59.69 185.42 0)
+		(property "Value" "+3V3"
+			(at 335.28 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18284,7 +17851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 189.23 0)
+			(at 350.52 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18295,7 +17862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 194.31 0)
+			(at 350.52 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18306,7 +17873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 181.61 0)
+			(at 335.28 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18315,7 +17882,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 50.8 189.23 0)
+			(at 350.52 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18326,7 +17893,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 50.8 191.77 0)
+			(at 350.52 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18337,12 +17904,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "300a02b9-2649-4657-8d2a-34effe1b1b72")
+			(uuid "091c87c1-f0bc-44b6-8129-67793467759d")
 		)
 		(instances
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR076")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -19192,6 +18759,242 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_4k7_0402")
+		(at 375.92 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b84d2c6-6522-492c-9839-7b4e515ca788")
+		(property "Reference" "R23"
+			(at 378.46 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_4k7_0402"
+			(at 388.62 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 391.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 393.7 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 375.92 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 396.24 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 398.78 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 401.32 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 403.86 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4k7"
+			(at 378.46 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 386.08 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3e0c39d-733f-43fa-8371-32a29a0451db")
+		)
+		(pin "2"
+			(uuid "95a04274-7f42-4bd9-ae0e-0e2b6302c797")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 153.67 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bc7c4d3-2a76-41e7-a804-6977b307bced")
+		(property "Reference" "#PWR076"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4354e61-040d-44a8-93e2-86952e0d41b1")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 273.05 219.71 0)
 		(unit 1)
@@ -19585,6 +19388,158 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(at 335.28 205.74 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c9cfeda-0255-4eff-a392-f2521cf705f8")
+		(property "Reference" "C5"
+			(at 332.74 207.0163 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_16V_X7R_0402"
+			(at 358.14 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 360.68 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+			(at 363.22 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 350.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104J4RAC7411"
+			(at 365.76 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 332.74 209.5563 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 353.06 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 355.6 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 345.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 347.98 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62e0c501-2cd0-4409-940d-5ab97eb8efa3")
+		)
+		(pin "2"
+			(uuid "892e64b7-94f7-4a79-b66c-3f3196873671")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -20547,66 +20502,14 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 350.52 203.2 0)
+		(at 350.52 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2acd23a1-6653-4497-b4f7-36c841adf2f6")
 		(property "Reference" "#PWR031"
-			(at 365.76 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 350.52 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
 			(at 365.76 205.74 0)
 			(effects
 				(font
@@ -20617,8 +20520,59 @@
 				(hide yes)
 			)
 		)
-		(property "License" "Apache-2.0"
+		(property "Value" "+3V3"
+			(at 350.52 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
 			(at 365.76 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 365.76 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21164,144 +21118,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLogicTranslatorsLevelShifters:NTS0302JKZ")
-		(at 372.11 215.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2efad246-e300-4165-b760-1957163e245a")
-		(property "Reference" "U3"
-			(at 361.95 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NTS0302JKZ"
-			(at 361.95 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:X2SON8_1.4x1x0.32mm_P0.35mm"
-			(at 336.55 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NTS0302.pdf"
-			(at 336.55 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Translating Transceiver IC 8-X2SON (1.4x1)"
-			(at 372.11 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "NTS0302JKZ"
-			(at 367.665 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "NXP"
-			(at 336.55 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 336.55 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 336.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0e91d22-1ca3-47a9-b580-9a1a5e3d581f")
-		)
-		(pin "2"
-			(uuid "b6cdff66-6dfd-491d-a9d2-f8d7b3edab74")
-		)
-		(pin "3"
-			(uuid "418fcf82-4a23-41e2-8b93-22cd63897d9c")
-		)
-		(pin "4"
-			(uuid "3fc1bf4d-988e-4284-91cf-098e5a4398f7")
-		)
-		(pin "5"
-			(uuid "077f7578-0ee4-420d-8553-416bc6634a29")
-		)
-		(pin "6"
-			(uuid "2473f976-683e-487e-84c3-14c0908e6e98")
-		)
-		(pin "7"
-			(uuid "18034f10-0d50-494e-b35b-a4246a3038cf")
-		)
-		(pin "8"
-			(uuid "a73f6fe9-ca29-40c5-bb73-c65a27f83d7d")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 377.19 201.93 0)
+		(at 377.19 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21309,7 +21127,7 @@
 		(dnp no)
 		(uuid "2f2b9c85-05a9-4911-a124-057c1a644e01")
 		(property "Reference" "#FLG05"
-			(at 377.19 200.025 0)
+			(at 377.19 203.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21318,7 +21136,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 377.19 198.12 0)
+			(at 377.19 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21326,7 +21144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 377.19 201.93 0)
+			(at 377.19 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21335,7 +21153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 201.93 0)
+			(at 377.19 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21344,7 +21162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 377.19 201.93 0)
+			(at 377.19 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21452,6 +21270,142 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroLogicTranslatorsLevelShifters:NTS0102_TSSOP")
+		(at 353.06 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32dd768f-a988-4761-8879-0187b9afff96")
+		(property "Reference" "U3"
+			(at 363.22 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NTS0102_TSSOP"
+			(at 388.62 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TSSOP-8_3x3mm_P0.65mm"
+			(at 388.62 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/302/NTS0102-1127324.pdf"
+			(at 388.62 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transceiver, 1.65 V to 3.6 V, TSSOP-8"
+			(at 353.06 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NTS0102DP"
+			(at 363.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "NXP"
+			(at 388.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 388.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 388.62 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bdc9ba6-7de2-46a9-b23e-86a87b7b5850")
+		)
+		(pin "8"
+			(uuid "953fabd3-74e0-4aba-98cb-8213e209ba00")
+		)
+		(pin "4"
+			(uuid "6cde86e9-6dc0-4b6c-a34d-615174a1236d")
+		)
+		(pin "3"
+			(uuid "a80e1419-9a1f-4b63-8135-c829c206e777")
+		)
+		(pin "5"
+			(uuid "6edef621-4d05-405b-ab3b-8188d6c53bd5")
+		)
+		(pin "2"
+			(uuid "48f65a6b-b598-41bb-b6dc-fd78781610a0")
+		)
+		(pin "6"
+			(uuid "2ac63e18-35aa-46ae-b93f-33eb0aefba6b")
+		)
+		(pin "7"
+			(uuid "3d68055e-dbd3-4a36-b53e-00f460124c7c")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -24187,150 +24141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTVSDiodes:PUSB3F96X_PASS")
-		(at 62.23 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "514c6bff-b2a0-4ecc-a082-a11807173d1f")
-		(property "Reference" "D10"
-			(at 76.2 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PUSB3F96X_PASS"
-			(at 87.63 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm"
-			(at 87.63 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf"
-			(at 87.63 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS diode array, 10 kV, DFN-2510, 5.5 V, 0.5 pF"
-			(at 62.23 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 87.63 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PUSB3F96X"
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 87.63 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 87.63 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "81ea6a25-2e8a-4c7f-ba72-05379bab2eae")
-		)
-		(pin "9"
-			(uuid "2d437fc7-dc52-4c58-9f14-af070419f914")
-		)
-		(pin "10"
-			(uuid "8c6a3b2a-0179-417f-97dd-f07010c24813")
-		)
-		(pin "4"
-			(uuid "bec7315a-663a-4558-a7a2-f4d179f5b707")
-		)
-		(pin "3"
-			(uuid "45d56a29-779f-4dbd-ace1-65c51f34d911")
-		)
-		(pin "1"
-			(uuid "5e5eb525-d37c-437a-b292-2ae41acca4cc")
-		)
-		(pin "2"
-			(uuid "99c893f1-2760-4e4b-9a0b-05fd1dca3052")
-		)
-		(pin "7"
-			(uuid "917e1e63-932d-4819-b8ac-9b1553559ba8")
-		)
-		(pin "5"
-			(uuid "95bd8225-3f73-418c-9a70-abf9c725b94d")
-		)
-		(pin "8"
-			(uuid "04bb4303-dc55-4cfa-a443-37d3df0ad31f")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_4u7_0402")
 		(at 304.8 55.88 270)
 		(unit 1)
@@ -24604,6 +24414,101 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 341.63 231.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "527a9c96-ec91-4097-b4a7-30dfa7df74aa")
+		(property "Reference" "#PWR077"
+			(at 326.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 326.39 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 326.39 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6bb4fca-e07b-41da-8ff0-90c69c43c8a8")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -25100,24 +25005,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_220R_0402")
-		(at 379.73 218.44 0)
+		(lib_id "antmicroResistors0402:R_4k7_0402")
+		(at 350.52 238.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "60c7c5aa-b981-4b2c-a941-698e130defad")
-		(property "Reference" "R13"
-			(at 377.825 217.17 0)
+		(fields_autoplaced yes)
+		(uuid "5959e6d3-b422-4624-b023-1c7deb396e98")
+		(property "Reference" "R22"
+			(at 353.06 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R_220R_0402"
-			(at 400.05 231.14 0)
+		(property "Value" "R_4k7_0402"
+			(at 363.22 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25128,7 +25036,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 400.05 233.68 0)
+			(at 365.76 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25139,7 +25047,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 400.05 236.22 0)
+			(at 368.3 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25149,17 +25057,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 379.73 218.44 0)
+		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 350.52 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 370.84 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 400.05 241.3 0)
+			(at 373.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25167,31 +25086,10 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-2200GLF"
-			(at 400.05 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "220R"
-			(at 384.81 217.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 400.05 243.84 0)
+			(at 375.92 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25202,7 +25100,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 400.05 246.38 0)
+			(at 378.46 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25212,18 +25110,18 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 400.05 228.6 0)
+		(property "Val" "4k7"
+			(at 353.06 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Public" "False"
-			(at 400.05 248.92 0)
+		(property "Tolerance" "1%"
+			(at 360.68 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25233,15 +25131,201 @@
 			)
 		)
 		(pin "1"
-			(uuid "526957a1-8b72-4b79-b579-0757682ab0fd")
+			(uuid "4e3eef7a-61ab-4b30-a046-1002a199dbaf")
 		)
 		(pin "2"
-			(uuid "bd4c5266-87a1-43e8-bbdb-cb69e5c44795")
+			(uuid "1b7403df-7362-4369-a640-7a307c947857")
 		)
 		(instances
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "R13")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 397.51 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f985e0a-cf26-4aee-8db9-e9de95e2effe")
+		(property "Reference" "#PWR037"
+			(at 397.51 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.51 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 406.4 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 397.51 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 406.4 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 406.4 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ced28d6-d502-43ed-af97-636ff2a2ebb4")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+5V")
+		(at 375.92 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61222d17-57ef-4938-bfb7-c41bc0af3451")
+		(property "Reference" "#PWR078"
+			(at 391.16 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 375.92 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 391.16 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 391.16 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77fb40f7-7eb8-412a-83df-267ea778c1d3")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -25619,98 +25703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 378.46 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6464acd6-89f4-470d-b505-5ecfc3e809cf")
-		(property "Reference" "#PWR035"
-			(at 378.46 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 378.46 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 378.46 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 387.35 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 387.35 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc4804e6-eb9d-482e-a87e-c3841393d53a")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
 		(at 292.1 38.1 270)
 		(unit 1)
@@ -25951,100 +25943,6 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+3V3")
-		(at 378.46 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6841a13f-0472-4b25-b6f0-96344b2bd6ef")
-		(property "Reference" "#PWR034"
-			(at 393.7 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 378.46 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 378.46 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 393.7 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 393.7 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2088809-710a-4d85-a228-176c4dfbcc96")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -28040,24 +27938,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_220R_0402")
-		(at 379.73 220.98 0)
+		(lib_id "antmicropower:+3V3")
+		(at 350.52 214.63 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7e82c81b-f517-4b4b-a65b-4ef1cd5aa72d")
-		(property "Reference" "R14"
-			(at 377.825 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_220R_0402"
-			(at 400.05 233.68 0)
+		(uuid "7e7d3d90-3138-4eed-9037-73b66596a793")
+		(property "Reference" "#PWR034"
+			(at 350.52 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28067,8 +27958,17 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 400.05 236.22 0)
+		(property "Value" "+3V3"
+			(at 344.678 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28078,8 +27978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 400.05 238.76 0)
+		(property "Datasheet" ""
+			(at 360.68 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28090,59 +27990,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 379.73 220.98 0)
+			(at 350.52 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 400.05 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-2200GLF"
-			(at 400.05 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "220R"
-			(at 384.81 220.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 400.05 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 400.05 248.92 0)
+			(at 353.06 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28152,36 +28009,24 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 400.05 231.14 0)
+		(property "License" "Apache-2.0"
+			(at 355.6 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 400.05 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "39448b8e-4837-4a8e-90ac-1c882cd1f346")
-		)
-		(pin "2"
-			(uuid "96be1253-469e-4bd8-acaf-6112ee9ddb78")
+			(uuid "e42a4c32-6391-4a6c-b1b6-7a3e4fd86882")
 		)
 		(instances
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "R14")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -28399,6 +28244,157 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(at 397.51 205.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83be1584-b66c-4fbc-a2b6-244187a59763")
+		(property "Reference" "C6"
+			(at 400.05 207.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_16V_X7R_0402"
+			(at 374.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 372.11 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+			(at 369.57 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 397.51 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 382.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104J4RAC7411"
+			(at 367.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 400.05 210.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 379.73 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 377.19 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 387.35 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 384.81 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49d6cead-e5cd-43be-be6a-1a276bbbd35a")
+		)
+		(pin "2"
+			(uuid "00fb1ba6-95e8-412f-aea2-1130f2444646")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -28753,6 +28749,98 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 374.65 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dd0c103-607f-4a89-8f95-13daf41818cb")
+		(property "Reference" "#PWR030"
+			(at 374.65 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 383.54 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 383.54 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d70deca9-43e6-4892-bab6-19de1ebad5ee")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -29864,16 +29952,15 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+5V")
-		(at 394.97 201.93 0)
+		(at 384.81 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99b5e41b-0eae-47c3-b419-0bb4fa0adbab")
 		(property "Reference" "#PWR040"
-			(at 410.21 204.47 0)
+			(at 400.05 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29884,7 +29971,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 394.97 197.485 0)
+			(at 384.81 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29893,7 +29980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 410.21 209.55 0)
+			(at 400.05 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29904,7 +29991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 212.09 0)
+			(at 400.05 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29915,7 +30002,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 394.97 201.93 0)
+			(at 384.81 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29924,7 +30011,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 410.21 209.55 0)
+			(at 400.05 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29935,7 +30022,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 410.21 212.09 0)
+			(at 400.05 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30545,6 +30632,100 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+5V")
+		(at 397.51 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8a26281-02f8-40e4-a5f4-cc797f136718")
+		(property "Reference" "#PWR079"
+			(at 412.75 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 397.51 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 412.75 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 412.75 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 397.51 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 412.75 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 412.75 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b20cf33f-a701-4e3f-8319-3678db579aac")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -31602,153 +31783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_220R_0402")
-		(at 384.81 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc373d22-4725-4709-90ab-7f35bef4ddb1")
-		(property "Reference" "R15"
-			(at 387.35 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_220R_0402"
-			(at 405.13 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 405.13 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 405.13 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 384.81 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 405.13 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-2200GLF"
-			(at 405.13 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "220R"
-			(at 387.35 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 405.13 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 405.13 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 405.13 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 405.13 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7e5c97d-c06e-4a5b-a785-729a058a0bc3")
-		)
-		(pin "2"
-			(uuid "48f9cac9-7a3f-43aa-b245-17bcb817427f")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
 		(at 295.91 55.88 270)
 		(unit 1)
@@ -32624,6 +32658,147 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_4k7_0402")
+		(at 389.89 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c504da5b-702b-41ff-bdec-308fb375c0e6")
+		(property "Reference" "R24"
+			(at 392.43 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_4k7_0402"
+			(at 402.59 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 405.13 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 407.67 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 389.89 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 410.21 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 412.75 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 415.29 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 417.83 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4k7"
+			(at 392.43 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 400.05 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecb3277c-eb3c-4a88-9aff-2ea5dbc6b2f9")
+		)
+		(pin "2"
+			(uuid "7a215e3b-873d-4d96-9dac-fbccbd0e3f2a")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -33569,6 +33744,147 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_4k7_0402")
+		(at 341.63 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccfb7169-7481-4267-9a7d-ff3426601177")
+		(property "Reference" "R15"
+			(at 344.17 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_4k7_0402"
+			(at 354.33 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 356.87 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 359.41 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 341.63 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 361.95 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 364.49 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 367.03 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 369.57 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4k7"
+			(at 344.17 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 351.79 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c4a7eeb-656c-44f1-90f2-c000d3338587")
+		)
+		(pin "2"
+			(uuid "85e2c2d8-14f9-4a1b-9a4e-8d3d8cfdf8ca")
+		)
+		(instances
+			(project ""
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 163.83 261.62 0)
 		(unit 1)
@@ -33852,6 +34168,101 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
+		(at 59.69 176.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d17a4787-8f46-4a03-8772-72f92ecf283b")
+		(property "Reference" "#PWR081"
+			(at 50.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 50.8 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 50.8 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f176dbc7-7cf7-4bd6-9074-71fb016747c3")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
 		(at 66.04 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34039,25 +34450,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 381 210.82 0)
+		(lib_id "antmicroTVSDiodes:TPD2E009_SOT-9X3")
+		(at 156.21 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5ee15c8-61c2-4445-9901-9bf16c5f1dd0")
-		(property "Reference" "#PWR037"
-			(at 381 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 382.905 213.36 0)
+		(uuid "d6a68064-97ec-407e-a5fa-8d081a814bc0")
+		(property "Reference" "D5"
+			(at 166.37 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34066,8 +34468,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 389.89 218.44 0)
+		(property "Value" "TPD2E009_SOT-9X3"
+			(at 171.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34077,8 +34479,19 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 389.89 223.52 0)
+		(property "Footprint" "antmicro-footprints:SOT-723"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 171.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34089,7 +34502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 381 210.82 0)
+			(at 156.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34097,8 +34510,29 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TPD2E009DRTR"
+			(at 166.37 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Author" "Antmicro"
-			(at 389.89 218.44 0)
+			(at 171.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34109,7 +34543,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 389.89 220.98 0)
+			(at 171.45 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34120,12 +34554,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "1eab3bcb-166a-430b-b4cf-2f50ef7559e6")
+			(uuid "6609558b-a2d5-4ac4-86ca-b9a1f34de3aa")
+		)
+		(pin "2"
+			(uuid "88189575-9856-4e40-b7a4-379f6561a1cf")
+		)
+		(pin "3"
+			(uuid "cb2f1281-dea0-4064-acae-ff002e3c0a50")
 		)
 		(instances
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR037")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -34267,6 +34707,128 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:TPD2E009_SOT-9X3")
+		(at 62.23 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dab910b9-b91a-422a-b768-1eaefbc3659c")
+		(property "Reference" "D10"
+			(at 72.39 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TPD2E009_SOT-9X3"
+			(at 77.47 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOT-723"
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 77.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD2E009DRTR"
+			(at 72.39 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 77.47 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 77.47 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 77.47 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08a9ebd3-3692-4854-b944-22ad61588ce2")
+		)
+		(pin "2"
+			(uuid "43bdab16-53f1-43b8-aaac-2b3bdc8a6b90")
+		)
+		(pin "3"
+			(uuid "1826596d-e012-466a-a652-bae25cdb7f87")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -34859,250 +35421,6 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 349.25 226.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddedbc2d-5e99-4c72-91d0-ae114a6538f8")
-		(property "Reference" "#PWR030"
-			(at 349.25 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 349.25 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 340.36 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 349.25 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 340.36 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 340.36 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bad0051c-2ffc-4660-ac7d-deaa185bd674")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
-		(at 378.46 232.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df5ea5ea-b060-489d-8307-7cbcf9e2f780")
-		(property "Reference" "C10"
-			(at 381 233.6863 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_100n_16V_X7R_0402"
-			(at 355.6 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 353.06 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
-			(at 350.52 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 378.46 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 363.22 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C104J4RAC7411"
-			(at 347.98 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 381 236.2263 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 360.68 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 358.14 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 368.3 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 365.76 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc840541-16c6-4e9b-9351-2c9e9963d12f")
-		)
-		(pin "2"
-			(uuid "2d81cc37-91c9-463f-b4cc-fb4d6166a196")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -36654,165 +36972,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_4u7_0402")
-		(at 381 209.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1b07bf9-590d-410e-8a52-d64784964cfa")
-		(property "Reference" "C11"
-			(at 382.905 206.375 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_4u7_0402"
-			(at 391.16 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 393.7 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23"
-			(at 396.24 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 381 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 401.32 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R61A475MEAAD"
-			(at 398.78 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4u7"
-			(at 382.905 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 403.86 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 406.4 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 408.94 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 411.48 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 414.02 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "773005a6-3c94-4334-876c-a229f39691c1")
-		)
-		(pin "2"
-			(uuid "5b851de3-8375-4e18-9d30-0acb30c11761")
-		)
-		(instances
-			(project "hdmi-edid-board"
-				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 287.02 153.67 0)
 		(mirror y)
@@ -37050,6 +37209,99 @@
 			(project "hdmi-edid-board"
 				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 335.28 212.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa991dbd-7ffb-4dd1-9ffa-d3f3dcb9026b")
+		(property "Reference" "#PWR035"
+			(at 335.28 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 326.39 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 326.39 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abaea841-a259-4421-b953-2ae516faf93f")
+		)
+		(instances
+			(project "hdmi-edid-board"
+				(path "/69739539-a836-41d5-a30c-27bc9a8ece0f"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
