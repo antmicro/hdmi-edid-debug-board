@@ -2,6 +2,8 @@
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
+![PCB render](./assets/previews/rightT.png)
+
 ## Overview
 
 This repository contains open hardware design files for HDMI EDID Debug Board.
