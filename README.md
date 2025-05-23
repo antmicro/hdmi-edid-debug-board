@@ -8,7 +8,28 @@ Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 This repository contains open hardware design files for HDMI EDID Debug Board.
 
-The design files were prepared in [KiCad](https://www.kicad.org/).
+The design files were prepared in KiCad 8.x.
+
+## Key features
+
+* HDMI passthrough
+  * LVDS, CEC, HPD, UTIL and 5V are passed through the board
+  * I2C connection can be changed by selector configuration
+* LED indicators
+  * HPD
+* HDMI power
+  * USB power
+  * EEPROM power
+* EDID Selectors (goldpins with jumpers / slide switches)
+  * HDMI Source I2C can be connected to HDMI Sink, EEPROM or disconnected
+  * FTDI I2C and QWIIC Connector can be connected to HDMI Sink, EEPROM or disconnected
+* EEPROM
+  * 2kb
+  * Default 7-bit I2C address: `0x50`
+* USB-C Connector and on-board USB-to-I2C bridge (FTDI FT4232H-56Q)
+  * Can be used to dump data from the HDMI sink or upload it to the on-board EEPROM
+* Power Mux
+  * EEPROM can be powered either from HDMI source or USB-C
 
 ## Repository structure
 
