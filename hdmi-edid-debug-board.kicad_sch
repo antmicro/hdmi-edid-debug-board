@@ -16509,7 +16509,7 @@
 		)
 		(uuid "05df60bf-1ffe-4d49-bacd-e02f1af23bdd")
 	)
-	(text "5V -> 3.3V LDO 400mA"
+	(text "5V -> 3.3V LDO 200mA"
 		(exclude_from_sim no)
 		(at 265.43 200.152 0)
 		(effects
